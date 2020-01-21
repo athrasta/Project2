@@ -1,0 +1,197 @@
+.maincontainer {
+    background-color: #f0e6d3;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    z-index: 5;
+    font-size: 34px;
+    text-align: left;
+    padding-left: 10px;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    color: #8C2A3D;
+    z-index: 10;
+}
+
+.textcontainer {
+    float: left;
+    position: relative;
+    height: 100vh;
+    width: 250px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    left: 20px;
+    float: left;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    color: #8C2A3D;
+    border: 1px solid #8C2A3D;
+    top: 20px;
+    height: 750px;
+
+} 
+
+.textcontainer:hover {
+    border: 10px solid #8C2A3D;
+    padding: 10px;
+}
+
+.box1 {
+    position: relative;
+    margin: auto;
+    background-color: #212D54;
+    width: 700px;
+    height: 100px;
+    top: 120px;
+    opacity: 90%;
+    animation: shape1 6s infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: none;
+}
+
+@keyframes shape1 {
+0% {
+  background-color:  #212D54;
+  opacity: 80%;
+}
+100% {
+  background-color: #f8d40b;
+  opacity: 80%;
+}
+}
+
+.box2 {
+    position: relative;
+    margin: auto;
+    background-color: #212D54;
+    width: 700px;
+    height: 100px;
+    top: 220px;
+    opacity: 90%;
+    animation: shape2 6s infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: none;
+}
+
+@keyframes shape2 {
+0% {
+  background-color:  #212D54;
+  opacity: 80%;
+}
+100% {
+  background-color: #f8d40b;
+  opacity: 80%;
+}
+}
+
+.box3 {
+    position: relative;
+    margin: auto;
+    background-color: #212D54;
+    width: 700px;
+    height: 100px;
+    top: 320px;
+    opacity: 90%;
+    animation: shape3 6s infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: none;
+}
+
+@keyframes shape3 {
+0% {
+  background-color:  #212D54;
+  opacity: 80%;
+}
+100% {
+  background-color: #f8d40b;
+  opacity: 80%;
+}
+}
+
+.box4 {
+    position: relative;
+    margin: auto;
+    bottom: 240px;
+    right: 220px;
+    width: 100px;
+    height: 640px;
+    background-color: #C4956B;
+    opacity: 80%;
+    mix-blend-mode: multiply;
+    z-index: 20;
+    animation: shape4 6s infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: none;
+}
+
+@keyframes shape4 {
+0% {
+  background-color:  #C4956B;
+  opacity: 80%;
+}
+100% {
+  background-color: #038b51;
+  opacity: 80%;
+}
+}
+
+
+
+
+.box5 {
+    position: relative;
+    margin: auto;
+    bottom: 880px;
+    width: 100px;
+    height: 640px;
+    background-color: #FF8756;
+    opacity: 80%;
+    mix-blend-mode: multiply;
+    z-index: 20;
+    animation: shape5 6s infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: none;
+}
+
+@keyframes shape5 {
+0% {
+  background-color:  #FF8756;
+  opacity: 80%;
+}
+100% {
+  background-color: #a94a8c;
+  opacity: 80%;
+}
+}
+
+
+.box6 {
+    position: relative;
+    margin: auto;
+    left: 220px;
+    bottom: 1520px;
+    width: 100px;
+    height: 640px;
+    background-color: #8C2A3D;
+    opacity: 80%;
+    mix-blend-mode: multiply;
+    z-index: 20;
+    animation: shape6 6s infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: none;
+}
+
+@keyframes shape6 {
+0% {
+  background-color:  #8C2A3D;
+  opacity: 80%;
+}
+100% {
+  background-color: #ef4442;
+  opacity: 80%;
+}
+}

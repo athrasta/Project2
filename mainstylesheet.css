@@ -1,0 +1,19 @@
+.maincontainer {
+   background-color: #f0e6d3;
+   height: 100vh;
+   width: 100vw;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  padding-top: 200px;
+  font-size: 42px;
+}
+
+h1 {
+    color: #448090;
+    font-weight: bold;
+
+}
+
+.title {
+    color: #448090;
+}

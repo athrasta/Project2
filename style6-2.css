@@ -18,6 +18,11 @@ h1 {
       font-family: 'Playfair Display', serif;
       color: #B3D182;
   }
+  h2 {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    color: lightseagreen;
+  }
 
 
 .textcontainer {
@@ -100,3 +105,44 @@ h1 {
       opacity: 80%;
     }
   }
+
+
+
+@media(max-width:900px) {
+  .textcontainer {
+    position: relative;
+    top: 800px;
+  }
+
+  .box1 {
+    left: 500px;
+  }
+
+  .box2 {
+    left: 300px;
+  }
+
+}
+
+
+@media(max-width:700px) {
+
+
+  .box1 {
+    left: 200px;
+  }
+
+  .box2 {
+    left: 100px;
+  }
+
+}
+
+.box3 {
+  margin: auto;
+  position: absolute;
+  float: right;
+  right: 1000px;
+
+
+}

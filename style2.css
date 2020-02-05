@@ -1,10 +1,10 @@
 
-
 .maincontainer {
     background-color: #f0e6d3;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
+    padding-bottom: 60px;
 }
 
 h1 {
@@ -28,9 +28,7 @@ h1 {
     font-size: 12px;
     font-family: 'Work Sans', sans-serif;
     left: 20px;
-    float: left;
     overflow: scroll;
-    scroll-behavior: smooth;
     color: #F00613;
     border: 1px solid #d93a28;
 
@@ -243,3 +241,19 @@ h1 {
       background-color: #eb624a;
     }
   }
+
+  @media (max-width: 1300px) {
+    .textcontainer  {
+      position: relative;
+      top: 800px;
+      left: 500px;
+    
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .textcontainer  {
+     visibility: hidden;
+    }
+  }
+  
